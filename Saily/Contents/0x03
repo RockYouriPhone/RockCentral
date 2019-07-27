@@ -1,0 +1,72 @@
+--> Begin Section |text_inherit_saying|越狱设备安全指南|
+越狱，苹果系统的最后出路
+他是世界多名顶级黑客打造
+的神秘精华。
+---> End Section
+
+--> Begin Section |text
+那么手机越狱安全吗？
+---> End Section
+
+--> Begin Section |photo_with_description|./Resource/corellium.jpg|
+世界首家 iOS 虚拟化运营商 Corellium
+---> End Section
+
+--> Begin Section |text
+首先我们回答问题：
+//BLANK-LINE//
+      越狱，你的设备依然安全。你从 App Store 下载的 App 仍然在他们各自的黑盒子里面工作，看不到彼此，也不认识彼此。其次，养成良好的用机环境即可高枕无忧。
+//BLANK-LINE//
+      但是请注意，您设备的 OpenSSH 管理员密码需要引起您的注意。在安装了 OpenSSH 的情况下，他的默认密码是第一代 iPhone 的工程代号：“alpine”。您需要修改他。
+//BLANK-LINE//
+      其中，由 Coolstar 经手的越狱例如 Electra 和 Chimera 默认都开启了 OpenSSH，而其他越狱诸如 Uncover 默认并没有安装。
+---> End Section
+
+--> Begin Section |text_inherit_saying|
+SSH - ALPINE
+---> End Section
+
+--> Begin Section |text
+那么我们如何修改密码呢？首先，你需要添加软件源
+//BLANK-LINE//
+---> End Section
+
+--> Begin Section |package_repo|https://repo.chariz.io/
+Chariz
+---> End Section
+
+--> Begin Section |text
+      并安装软件包 NewTerm 2
+//BLANK-LINE//
+---> End Section
+
+--> Begin Section |package|ws.hbang.newterm
+The most geek tool for you.
+---> End Section
+
+--> Begin Section |text
+然后在终端输入如下的指令即可完成任务。
+//BLANK-LINE//
+        login root
+        alpine
+        passwd
+        (连续输入两次密码)
+        passwd mobile
+        (连续输入两次密码)
+//BLANK-LINE//
+//BLANK-LINE//
+---> End Section
+
+--> Begin Section |photo_with_description|./Resource/ssh_example.jpg|
+终端案例输出
+---> End Section
+
+--> Begin Section |text
+需要注意的是，你需要英文键盘来输入。
+---> End Section
+
+--> Begin Section |text
+
+//BLANK-LINE//
+@Lakr233 - 2019.6.4
+---> End Section

@@ -1,0 +1,39 @@
+
+--> Begin Section |text
+国行iPhone的烦恼
+---> End Section
+
+--> Begin Section |photo_with_description|./Resource/NoInternet.jpg|
+Duang!
+---> End Section
+
+--> Begin Section |text
+      确实，国行的iPhone为了防止应用偷跑流量增加了流量管控功能。这玩意不得不说挺好用的，但对于越狱来说也确实麻烦。今天，我们要和他干上一场：连个锤子，专修越狱高权限App在国行手机上无法联网的问题。我相信能够通过ssh解决软件包管理器首次联网问题的你，一定有办法。
+//BLANK-LINE//
+      首先，我们添加 Tinyapps 官方软件源。
+---> End Section
+
+--> Begin Section |package_repo|http://apt.tinyapps.cn/
+Tinyapps官方源
+---> End Section
+
+--> Begin Section |text
+      在点击了添加以后，请等待绿色的通知栏提示：完成构建软件包。然后，您可以关闭此页面并重新打开来刷新软件包栏目。接下来，轻触查看按钮跳转到软件包页面。点击下载，并提交安装。
+//BLANK-LINE//
+别慌，作者他很懒，没有写简介。
+---> End Section
+
+--> Begin Section |package|apt.tinyapps.renet
+连个锤子，李姐万岁
+---> End Section
+
+--> Begin Section |photo_with_description|./Resource/RenetInstall.png|
+安装锤子
+---> End Section
+
+--> Begin Section |text
+      安装完成后您可以直接退出，并返回桌面启动联网修复。
+//BLANK-LINE//
+//BLANK-LINE//
+2019.7.25
+---> End Section

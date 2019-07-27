@@ -1,0 +1,49 @@
+# Example Content
+
+# enum card_detail_type: Int {
+
+#    case text                                   = 0x101
+#    case text_inherit_saying                    = 0x102
+#    case photo                                  = 0x201
+#    case photo_with_description                 = 0x202
+#    case news_repo                              = 0x301
+#    case package_repo                           = 0x302
+#    case package                                = 0x303
+
+# }
+
+--> Begin Section |text
+致用户的一封信：
+//BLANK-LINE//
+      还曾记得越狱的鼻祖Cydia吗？
+//BLANK-LINE//
+      这个咖啡色的纸盒快递承载了我多少年自由的回忆。从iPhone 3Gs开始，一直到iPhoneX，从iOS4开始一直到iOS12，Cydia都是越狱本身不可或缺的一部分。在此，我们向祖先们致敬。
+---> End Section
+
+--> Begin Section |photo_with_description|./Resource/Jailbroken-iPhone.png|
+在设备性能极度严苛的条件下完美运转的Cydia
+---> End Section
+
+--> Begin Section |text
+      但是随着设备硬件性能的发展，人们审美的变化，Cydia已经看上去不那么闪闪发光，这也让社区诞生了许许多多的新产品。例如Zebra, Sileo这样的软件包管理器。Saily就是其中的一款。
+//BLANK-LINE//
+      我们费劲心血，精心设计。在打造这款软件包管理器的过程中，曾4次推翻项目重构，共精简代码千行，优化数据模型十余次，UI帧率优化近百次，只为打造极致的用户体验。
+---> End Section
+
+--> Begin Section |text_inherit_saying|本程序作者寄语|
+自由自在，无忧无虑的作品
+是社区最好的礼物。他不参
+杂世间俗味，明白任重和道
+远。在他心底飘散着芬芳，
+值得你去喜欢。
+---> End Section
+
+--> Begin Section |text|
+      本软件遵循iOS开发设计原则，依赖APT/DPKG，与Cydia兼容。（与Sileo的兼容存在一定问题，请自行斟酌） 如果在使用过程中遇到任何问题，欢迎在软件的设置页面内获取支持。本软件完全开源，免费。
+//BLANK-LINE//
+      祝越狱社区天长地久。
+//BLANK-LINE//
+2019年5月
+Lakr Aream - @Lakr233
+---> End Section
+
