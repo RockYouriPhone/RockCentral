@@ -1,0 +1,75 @@
+# This is an example of news repo card major content.
+# Please strictly follow the example.
+
+# enum card_type: Int {
+
+#   case photo_full                             = 0x101
+#   case photo_full_with_banner_down_dark       = 0x102
+#   case photo_half_with_banner_down_light      = 0x111
+#   case river_view_animate                     = 0x201
+#   case river_view_static                      = 0x202
+
+# }
+
+# Every value here is optional.
+# "|" After/In content means "\n"
+
+--> Begin Card
+
+# RECOMMEND LINES
+LKCD-TYPE|                                      |river_view_static # river_view_animate is bugy
+LKCD-TITLE|                                     |从 “添加” 软件源开始
+LKCD-SUBTITLE|                                  |初来乍到
+
+LKCD-PHOTO|                                     |https://repo.chariz.io/CydiaIcon@3x.png, https://cydia.akemi.ai/CydiaIcon.png, ./Resource/App.png, https://repo.dynastic.co/CydiaIcon@3x.png
+
+LKCD-TITLE-COLOR|                               |0xFFFFFF
+LKCD-SUBTITLE-COLOR|                            |0x9A9A9A
+LKCD-CONTENTS|                                  |./Contents/0x01
+
+---> End Card
+
+--> Begin Card
+
+LKCD-TYPE|                                      |photo_half_with_banner_down_light
+LKCD-TITLE|                                     |Ultrasound|By AppleBetas
+LKCD-SUBTITLE|                                  |推荐尝试的插件
+LKCD-DESSTR|                                    |全新设计的音量条
+LKCD-PHOTO|                                     |./Resource/Ultrasound.png
+
+LKCD-TITLE-COLOR|                               |0x000000
+LKCD-SUBTITLE-COLOR|                            |0x999999
+LKCD-DESSTR-COLOR|                              |0x999999
+LKCD-CONTENTS|                                  |./Contents/0x02
+
+---> End Card
+
+--> Begin Card
+
+LKCD-TYPE|                                      |photo_full_with_banner_down_dark
+LKCD-TITLE|                                     |我全部都要！
+LKCD-DESSTR|                                    |来自游戏修改器的诱惑
+LKCD-SUBTITLE|                                  |iGameGuardian
+LKCD-PHOTO|                                     |./Resource/iGG.png
+
+LKCD-TITLE-COLOR|                               |0xFFFFFF
+LKCD-SUBTITLE-COLOR|                            |0x999999
+LKCD-DESSTR-COLOR|                              |0x999999
+LKCD-CONTENTS|                                  |./Contents/0x03
+
+---> End Card
+
+--> Begin Card
+
+LKCD-TYPE|                                      |photo_half_with_banner_down_light
+LKCD-TITLE|                                     |你有多久没给自己的手机换字体了？
+LKCD-SUBTITLE|                                  |字体推荐
+LKCD-DESSTR|                                    |字由心雨，你心怡的字体。
+LKCD-PHOTO|                                     |./Resource/Fonts.png
+
+LKCD-TITLE-COLOR|                               |0x000000
+LKCD-SUBTITLE-COLOR|                            |0x999999
+LKCD-DESSTR-COLOR|                              |0x999999
+LKCD-CONTENTS|                                  |./Contents/0x04
+
+---> End Card
