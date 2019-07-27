@@ -1,16 +1,16 @@
-# This is an example of news repo.
-# The " " after first "|" are automatically ignored
+# This is an example of a Rock 3 repository.
+# The " " after first "|" are automatically ignored.
 
 # Could be only at the beginning of the line.
 
 # RECOMMEND LINES
-LKRP-NAME|                          |Aream's
-LKRP-PROVIDE-LANGUAGE|              |zh-Hans
-LKRP-TITLE|                         |来自 Aream 的首页推荐内容
-LKRP-SUBTITLE|                      |新手上路 请多关照
-LKRP-ICON|                          |./Resource/icon-1024.png
+RCRP-NAME|                          |Rock Central
+RCRP-PROVIDE-LANGUAGE|              |en_US
+RCRP-TITLE|                         |Rock Central
+RCRP-SUBTITLE|                      |The central repository for Rock 3.
+RCRP-ICON|                          |./Resource/icon-1024.png
 
-# OPRION LINES
-# Optional property will implement later and may not effective in nearly versions.
-# LKRP-TITLE-COLOR|                   |0x000000
-# LKRP-SUBITLE-COLOR|                 |0x0AAADD
+# OPTIONAL LINES
+# Optional properties will be implemented later and may not work as of now.
+# RCRP-TITLE-COLOR|                   |0x000000
+# RCRP-SUBITLE-COLOR|                 |0x0AAADD
