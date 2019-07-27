@@ -1,5 +1,5 @@
-# This is an example of news repo card major content.
-# Please strictly follow the example.
+# This is an example of Rock 3 repo's card content.
+# Please follow the example exactly as shown.
 
 # enum card_type: Int {
 
@@ -16,16 +16,16 @@
 
 --> Begin Card
 
-# RECOMMEND LINES
-LKCD-TYPE|                                      |river_view_static # river_view_animate is bugy
-LKCD-TITLE|                                     |从 “添加” 软件源开始
-LKCD-SUBTITLE|                                  |初来乍到
+# RECOMMENDED LINES
+RACD-TYPE|                                      |river_view_static # river_view_animate is buggy
+RACD-TITLE|                                     |Rock Central Test
+RACD-SUBTITLE|                                  |This is a test of a repo card for Rock Central.
 
-LKCD-PHOTO|                                     |https://repo.chariz.io/CydiaIcon@3x.png, https://cydia.akemi.ai/CydiaIcon.png, ./Resource/App.png, https://repo.dynastic.co/CydiaIcon@3x.png
+RACD-PHOTO|                                     |https://repo.chariz.io/CydiaIcon@3x.png, https://cydia.akemi.ai/CydiaIcon.png, ./Resource/App.png, https://repo.dynastic.co/CydiaIcon@3x.png
 
-LKCD-TITLE-COLOR|                               |0xFFFFFF
-LKCD-SUBTITLE-COLOR|                            |0x9A9A9A
-LKCD-CONTENTS|                                  |./Contents/0x01
+RACD-TITLE-COLOR|                               |0xFFFFFF
+RACD-SUBTITLE-COLOR|                            |0x9A9A9A
+RACD-CONTENTS|                                  |./Contents/0x01
 
 ---> End Card
 
